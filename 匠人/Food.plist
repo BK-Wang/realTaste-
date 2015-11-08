@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>url</key>
+		<string>http://www.youyuwei.com/api/note?ywsdk_ver=20131018&amp;app_code=com.youyuwei.yuwei.ios&amp;oauth_version=1.0&amp;oauth_timestamp=1446435355&amp;oauth_nonce=8160e5fdb08a3228fb175396c6a48002&amp;oauth_signature=WCi7ZKBwwhVNT2DlxsZM98Lel0o%3D&amp;sys_ver=8.1.2&amp;hardware_model=iPhone7%2C2&amp;oauth_consumer_key=4&amp;device_token=cba52b86ed6a52b1665306ee6ee937c68394f6a56c9f33b6d81bdaa709f9f7a3&amp;ver=2&amp;list=Hotlist&amp;oauth_signature_method=HMAC-SHA1&amp;debug=0&amp;app_ver=2.1&amp;x_auth_mode=client_auth&amp;oauth_token=0_9837387abc30183c39&amp;channel_id=App%20Store&amp;start=0&amp;open_udid=9ef0feba0318c583a7ce8b4fb8b05019f9093602&amp;device_type=ios&amp;idfa=9DDCE5FE-2527-4A39-96F1-873A6A9491F6</string>
+		<key>title</key>
+		<string>最热</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://www.youyuwei.com/api/note?ywsdk_ver=20131018&amp;app_code=com.youyuwei.yuwei.ios&amp;oauth_version=1.0&amp;oauth_timestamp=1446435366&amp;oauth_nonce=54bc33dc19b0eca8dc852a97a1505df1&amp;oauth_signature=PtJxuemkuIMCPiRjBeypJ3hQ%2F%2F0%3D&amp;sys_ver=8.1.2&amp;hardware_model=iPhone7%2C2&amp;oauth_consumer_key=4&amp;device_token=cba52b86ed6a52b1665306ee6ee937c68394f6a56c9f33b6d81bdaa709f9f7a3&amp;ver=2&amp;list=Newlist&amp;oauth_signature_method=HMAC-SHA1&amp;debug=0&amp;app_ver=2.1&amp;x_auth_mode=client_auth&amp;oauth_token=0_9837387abc30183c39&amp;channel_id=App%20Store&amp;start=1&amp;open_udid=9ef0feba0318c583a7ce8b4fb8b05019f9093602&amp;device_type=ios&amp;idfa=9DDCE5FE-2527-4A39-96F1-873A6A9491F6</string>
+		<key>title</key>
+		<string>最新</string>
+	</dict>
+</array>
+</plist>

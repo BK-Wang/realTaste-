@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HotelSecondCell" rowHeight="128" id="KGk-i7-Jjw" customClass="HotelSecondCell">
+            <rect key="frame" x="0.0" y="0.0" width="323" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="323" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XXo-XP-Cqf">
+                        <rect key="frame" x="0.0" y="0.0" width="323" height="127"/>
+                        <animations/>
+                    </imageView>
+                    <view clipsSubviews="YES" alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3e4-Qw-fnq">
+                        <rect key="frame" x="0.0" y="0.0" width="323" height="127"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3O-XK-Awi">
+                        <rect key="frame" x="5" y="107" width="36" height="20"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="R1v-E7-u01"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VyJ-zh-vK0">
+                        <rect key="frame" x="5" y="87" width="42" height="20"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="h3O-XK-Awi" firstAttribute="bottom" secondItem="XXo-XP-Cqf" secondAttribute="bottom" id="2js-Hv-Igl"/>
+                    <constraint firstItem="XXo-XP-Cqf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CTo-0P-d3x"/>
+                    <constraint firstAttribute="trailing" secondItem="XXo-XP-Cqf" secondAttribute="trailing" id="CbE-qB-0TK"/>
+                    <constraint firstItem="h3O-XK-Awi" firstAttribute="top" secondItem="VyJ-zh-vK0" secondAttribute="bottom" id="EEH-xr-RQm"/>
+                    <constraint firstItem="3e4-Qw-fnq" firstAttribute="top" secondItem="XXo-XP-Cqf" secondAttribute="top" id="JLh-pG-e2Y"/>
+                    <constraint firstItem="h3O-XK-Awi" firstAttribute="height" secondItem="VyJ-zh-vK0" secondAttribute="height" id="Jjc-OU-gUB"/>
+                    <constraint firstItem="3e4-Qw-fnq" firstAttribute="width" secondItem="XXo-XP-Cqf" secondAttribute="width" id="Jum-gT-GMf"/>
+                    <constraint firstItem="VyJ-zh-vK0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="TL9-qu-LKS"/>
+                    <constraint firstItem="h3O-XK-Awi" firstAttribute="leading" secondItem="VyJ-zh-vK0" secondAttribute="leading" id="URW-fR-XYc"/>
+                    <constraint firstAttribute="bottom" secondItem="XXo-XP-Cqf" secondAttribute="bottom" id="aOQ-N6-Qvl"/>
+                    <constraint firstItem="3e4-Qw-fnq" firstAttribute="height" secondItem="XXo-XP-Cqf" secondAttribute="height" id="bJA-2e-6vr"/>
+                    <constraint firstItem="3e4-Qw-fnq" firstAttribute="leading" secondItem="XXo-XP-Cqf" secondAttribute="leading" id="fbl-BU-rhY"/>
+                    <constraint firstItem="XXo-XP-Cqf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vEE-ec-E86"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="descLabel" destination="VyJ-zh-vK0" id="mF5-s3-KeM"/>
+                <outlet property="foodImage" destination="XXo-XP-Cqf" id="I2i-DS-G2I"/>
+                <outlet property="titleLabel" destination="h3O-XK-Awi" id="stK-p2-BXn"/>
+            </connections>
+            <point key="canvasLocation" x="243.5" y="350"/>
+        </tableViewCell>
+    </objects>
+</document>
